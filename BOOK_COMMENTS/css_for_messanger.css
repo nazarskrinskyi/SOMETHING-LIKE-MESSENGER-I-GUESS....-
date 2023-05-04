@@ -1,0 +1,98 @@
+body {
+    background-color: #06d6a0;
+}
+.wrapper {
+    text-align: center;
+    background-color: wheat;
+    width: 600px;
+    margin: -20px auto -7px auto;
+    padding: 1px 20px 25px 20px;
+}
+.wrapper h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+.wrapper form .input {
+    border-radius: 5px;
+    width: 500px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.input:hover {
+    background-color: lightpink;
+    color: #242424;
+}
+.textarea:hover {
+    background-color: lightpink;
+    color: #242424;
+}
+.wrapper form .textarea {
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 40px;
+    height: 50px;
+    margin-bottom: 5px;
+
+}
+.wrapper form .textarea::placeholder{
+    text-justify: auto;
+}
+.wrapper form .button {
+    width: 507px;
+    margin-left: 40px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: deepskyblue;
+    color: white;
+    font-size: large;
+}
+.wrapper form .button:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: #242424;
+}
+.wrapper p {
+    text-align: left;
+}
+.wrapper  {
+    text-align: left;
+}
+.wrapper .border-true {
+    padding: 5px;
+    border: 1px solid deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 8px;
+}
+.wrapper .border-false {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 8px;
+}
+.wrapper .border-true h2 {
+    text-align: left;
+}
+.wrapper .border-false h2 {
+    text-align: left;
+    color: white;
+}
+.wrapper a {
+    border: lightgray 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: blue;
+}
+.wrapper a:hover {
+    background-color: deepskyblue;
+    color: white;
+    cursor: pointer;
+}
+.wrapper .active {
+    background-color: deepskyblue;
+    color: white;
+    cursor: pointer;
+}
+
+
